@@ -17,7 +17,7 @@
  * under the License.
  */
 export default function transformProps(chartProps) {
-  const { width, formData, payload } = chartProps;
+  const { height, width, formData, payload } = chartProps;
   const { horizonColorScale, seriesHeight } = formData;
 
   return {
@@ -25,5 +25,6 @@ export default function transformProps(chartProps) {
     data: payload.data,
     seriesHeight: parseInt(seriesHeight, 10),
     width,
+    height,
   };
 }
