@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "immutable": "^3.8.2",
+    "immutable": "^5.1.9",
     "mapbox-gl": "^0.53.0",
     "prop-types": "^15.6.2",
     "react-map-gl": "^4.0.10",
